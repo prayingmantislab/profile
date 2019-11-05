@@ -1,0 +1,73 @@
+body {
+  background-color: #F7F9FC;
+  color: #575F7D;
+}
+
+h1 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+a {
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+a :hover{
+  color: black ;
+}
+p {
+  font-family: 'Lora', serif;
+  font-size: 17px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #B8DBA9;
+}
+
+#profile {
+  border-radius: 50%;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0 0.1);
+  border-radius: 4px;
+  margin: 20px 40px;
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+/* .list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none; */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
